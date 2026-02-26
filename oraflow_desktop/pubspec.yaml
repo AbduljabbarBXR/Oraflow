@@ -1,0 +1,27 @@
+name: oraflow_desktop
+description: OraFlow Desktop Application - AI-powered development command center
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  window_manager: ^0.3.4
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  file_picker: ^6.1.1
+  flutter_highlight: ^0.7.0
+  google_fonts: ^6.0.0
+  path: ^1.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true

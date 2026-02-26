@@ -1,0 +1,33 @@
+# Flutter SDK (should be downloaded separately)
+flutter/
+
+# Dependencies
+node_modules/
+
+# Build outputs
+build/
+oraflow_desktop/build/
+oraflow_bridge/out/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Misc
+*.swp
+*.swo
+*~
